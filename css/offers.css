@@ -1,0 +1,123 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+/* start nav*/
+nav {
+  background-color: #244358;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 323;
+  color: white;
+  border-bottom: 1px solid #ffffff4a;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a {
+  color: white;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  color: #244358;
+  background-color: white;
+}
+.shop {
+  position: relative;
+}
+nav .value {
+  position: absolute;
+  top: -14px;
+  right: -6px;
+}
+/* end nav*/
+/* start offers*/
+.offers {
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.offers .main-title h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.offers .box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.offers .item {
+  padding: 20px;
+  width: 350px;
+  transition: 0.3s;
+}
+.offers .item:hover {
+  box-shadow: 0px 0px 6px 1px #00000059;
+}
+.offers img {
+  height: 150px;
+}
+.offers .item h2 {
+  margin: 10px 0;
+}
+.offers .item h5 {
+  font-size: 18px;
+  background-color: #fe3939;
+  color: white;
+  width: 70px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 20px auto;
+}
+.offers .item span {
+  font-size: 19px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.offers .item span:hover {
+  color: #fe3939;
+}
+/* end offers*/
+/* start footer*/
+footer {
+  background-color: #244358;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+footer span {
+  font-weight: bold;
+  color: #fe3939;
+  margin: 0 5px;
+}
+/* end footer*/

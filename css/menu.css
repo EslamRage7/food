@@ -1,0 +1,132 @@
+* {
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+/* start nav*/
+nav {
+  background-color: #244358;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 323;
+  color: white;
+  border-bottom: 1px solid #ffffff4a;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a {
+  color: white;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 15px;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  color: #244358;
+  background-color: white;
+}
+.shop {
+  position: relative;
+}
+nav .value {
+  position: absolute;
+  top: -14px;
+  right: -6px;
+}
+/* end nav*/
+/* start menu*/
+.menu {
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.menu .main-title h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.menu .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 60px;
+}
+.menu .item {
+  padding: 20px;
+
+  transition: 0.3s;
+}
+.menu .item:hover {
+  box-shadow: 0px 0px 6px 1px #00000059;
+}
+.menu img {
+  height: 150px;
+}
+.menu .item h2 {
+  margin: 10px 0;
+}
+.menu p {
+  opacity: 0.7;
+  line-height: 1.5;
+}
+.menu .item h5 {
+  font-size: 18px;
+  background-color: #fe3939;
+  color: white;
+  width: 70px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  margin-top: 20px;
+}
+.menu .item span {
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-left: 90px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.menu .item span:hover {
+  color: #fe3939;
+}
+/* end menu*/
+/* start footer*/
+footer {
+  background-color: #244358;
+  color: white;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+footer span {
+  font-weight: bold;
+  color: #fe3939;
+  margin: 0 5px;
+}
+/* end footer*/
